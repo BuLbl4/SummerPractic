@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "brG5KoOb2Zq31qBRR6RG7Ts7+eIa01XUqqNX+VY/AbA=",
+  "Source": "TrafficLaws.Web",
+  "BasePath": "_content/TrafficLaws.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TrafficLaws.Web\\wwwroot",
+      "Source": "TrafficLaws.Web",
+      "ContentRoot": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Web\\wwwroot\\",
+      "BasePath": "_content/TrafficLaws.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

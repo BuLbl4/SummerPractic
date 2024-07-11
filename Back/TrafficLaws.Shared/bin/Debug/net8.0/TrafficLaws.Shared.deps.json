@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TrafficLaws.Shared/1.0.0": {
+        "runtime": {
+          "TrafficLaws.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TrafficLaws.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

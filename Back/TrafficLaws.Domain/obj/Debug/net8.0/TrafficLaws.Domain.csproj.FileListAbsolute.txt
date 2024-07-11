@@ -1,0 +1,12 @@
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\bin\Debug\net8.0\TrafficLaws.Domain.deps.json
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\bin\Debug\net8.0\TrafficLaws.Domain.dll
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\bin\Debug\net8.0\TrafficLaws.Domain.pdb
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.csproj.AssemblyReference.cache
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.AssemblyInfoInputs.cache
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.AssemblyInfo.cs
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.dll
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\refint\TrafficLaws.Domain.dll
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\TrafficLaws.Domain.pdb
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Domain\obj\Debug\net8.0\ref\TrafficLaws.Domain.dll

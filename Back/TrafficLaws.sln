@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLaws.Web", "TrafficLaws.Web\TrafficLaws.Web.csproj", "{D289BE5F-6E65-4C68-A198-B3FE0EDD7221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0A443459-A4C6-45A7-A480-C45D3E86201A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{273EB8AF-F218-421F-8B2E-86B3935AB70E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{35004003-EA2B-4881-BBFD-5D6EDA7826A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D022388E-D299-4BE7-A524-9D9636F07AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLaws.Application", "TrafficLaws.Application\TrafficLaws.Application.csproj", "{39FD7F13-1664-48F2-9727-4FDF665F4572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLaws.Domain", "TrafficLaws.Domain\TrafficLaws.Domain.csproj", "{D7D4D38C-5DF9-44DC-9A16-2C35D18D5C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLaws.Shared", "TrafficLaws.Shared\TrafficLaws.Shared.csproj", "{28D2CCFA-4892-4C40-8C84-A8CF35CA3948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLaws.Infrastructure", "TrafficLaws.Infrastructure\TrafficLaws.Infrastructure.csproj", "{65C1EB3B-E347-40FC-9E9C-59C861F90974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLaws.Persistence", "TrafficLaws.Persistence\TrafficLaws.Persistence.csproj", "{B6DDD9F2-2E91-4B6E-88E8-ECA9059CF3C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D289BE5F-6E65-4C68-A198-B3FE0EDD7221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D289BE5F-6E65-4C68-A198-B3FE0EDD7221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D289BE5F-6E65-4C68-A198-B3FE0EDD7221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D289BE5F-6E65-4C68-A198-B3FE0EDD7221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FD7F13-1664-48F2-9727-4FDF665F4572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FD7F13-1664-48F2-9727-4FDF665F4572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FD7F13-1664-48F2-9727-4FDF665F4572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FD7F13-1664-48F2-9727-4FDF665F4572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D4D38C-5DF9-44DC-9A16-2C35D18D5C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D4D38C-5DF9-44DC-9A16-2C35D18D5C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D4D38C-5DF9-44DC-9A16-2C35D18D5C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D4D38C-5DF9-44DC-9A16-2C35D18D5C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D2CCFA-4892-4C40-8C84-A8CF35CA3948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D2CCFA-4892-4C40-8C84-A8CF35CA3948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D2CCFA-4892-4C40-8C84-A8CF35CA3948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D2CCFA-4892-4C40-8C84-A8CF35CA3948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C1EB3B-E347-40FC-9E9C-59C861F90974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C1EB3B-E347-40FC-9E9C-59C861F90974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C1EB3B-E347-40FC-9E9C-59C861F90974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C1EB3B-E347-40FC-9E9C-59C861F90974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DDD9F2-2E91-4B6E-88E8-ECA9059CF3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DDD9F2-2E91-4B6E-88E8-ECA9059CF3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DDD9F2-2E91-4B6E-88E8-ECA9059CF3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DDD9F2-2E91-4B6E-88E8-ECA9059CF3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39FD7F13-1664-48F2-9727-4FDF665F4572} = {0A443459-A4C6-45A7-A480-C45D3E86201A}
+		{D7D4D38C-5DF9-44DC-9A16-2C35D18D5C45} = {0A443459-A4C6-45A7-A480-C45D3E86201A}
+		{D289BE5F-6E65-4C68-A198-B3FE0EDD7221} = {35004003-EA2B-4881-BBFD-5D6EDA7826A9}
+		{28D2CCFA-4892-4C40-8C84-A8CF35CA3948} = {D022388E-D299-4BE7-A524-9D9636F07AE6}
+		{65C1EB3B-E347-40FC-9E9C-59C861F90974} = {273EB8AF-F218-421F-8B2E-86B3935AB70E}
+		{B6DDD9F2-2E91-4B6E-88E8-ECA9059CF3C1} = {273EB8AF-F218-421F-8B2E-86B3935AB70E}
+	EndGlobalSection
+EndGlobal

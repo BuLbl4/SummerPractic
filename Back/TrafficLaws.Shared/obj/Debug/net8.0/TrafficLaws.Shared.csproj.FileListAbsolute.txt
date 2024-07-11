@@ -1,0 +1,11 @@
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\bin\Debug\net8.0\TrafficLaws.Shared.deps.json
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\bin\Debug\net8.0\TrafficLaws.Shared.dll
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\bin\Debug\net8.0\TrafficLaws.Shared.pdb
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\TrafficLaws.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\TrafficLaws.Shared.AssemblyInfoInputs.cache
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\TrafficLaws.Shared.AssemblyInfo.cs
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\TrafficLaws.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\TrafficLaws.Shared.dll
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\refint\TrafficLaws.Shared.dll
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\TrafficLaws.Shared.pdb
+C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Shared\obj\Debug\net8.0\ref\TrafficLaws.Shared.dll
