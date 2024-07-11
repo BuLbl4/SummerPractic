@@ -20,7 +20,12 @@ public class AuthController : ControllerBase
         _mediator = mediator;
         _signInManager = signInManager;
     }
-
+    /// <summary>
+    /// Аутентифицироваться
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("[action]")]
     public async Task<IActionResult> Authentication(AuthRequest request, CancellationToken cancellationToken)
@@ -52,6 +57,13 @@ public class AuthController : ControllerBase
         }
     }
 
+    
+    /// <summary>
+    /// Функция забыли пароль
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("[action]")]
     public async Task<IActionResult> ForgotPassword(ForgotPasswordRequest request, CancellationToken cancellationToken)
@@ -74,6 +86,12 @@ public class AuthController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Проверка кода с почты
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("[action]")]
     public async Task<IActionResult> CodeCheck(CodeCheckRequest request, CancellationToken cancellationToken)
@@ -97,6 +115,13 @@ public class AuthController : ControllerBase
         }
     }
 
+    
+    /// <summary>
+    /// Обновить пароль
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("[action]")]
     public async Task<IActionResult> ResetPassword(ResetPasswordRequest request, CancellationToken cancellationToken)
@@ -119,6 +144,10 @@ public class AuthController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Выйти с аккаунта
+    /// </summary>
+    /// <returns></returns>
     [HttpPost]
     [Route("[action]")]
     public async Task<IActionResult> LogOut()

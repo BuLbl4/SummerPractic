@@ -14,6 +14,12 @@ public class TestController : ControllerBase
     {
         _mediator = mediator;
     }
+    
+    /// <summary>
+    /// Получить все тесты
+    /// </summary>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("[action]")]
     public async Task<IActionResult> GetAllTests(CancellationToken cancellationToken)
     {
@@ -29,6 +35,12 @@ public class TestController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Создать тест
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> CreateTest(CreateTestRequest request, CancellationToken cancellationToken)
     {
@@ -46,38 +58,79 @@ public class TestController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-
+    /// <summary>
+    /// Получить рандомный тест
+    /// </summary>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("[action]")]
     public async Task<IActionResult> GetRandomTest(CancellationToken cancellationToken)
     {
-        var res = await _mediator.Send(new GetRandomTestQuery(), cancellationToken);
+        try
+        {
+            var res = await _mediator.Send(new GetRandomTestQuery(), cancellationToken);
         
-        if(res.IsSuccessfully)
-            return Ok(res);
+            if(res.IsSuccessfully)
+                return Ok(res);
 
-        return BadRequest(res);
+            return BadRequest(res);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+      
     }
 
+    /// <summary>
+    /// Получить тест по id
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("[action]")]
     public async Task<IActionResult> GetTestById([FromQuery] GetTestByIdRequest request,
         CancellationToken cancellationToken)
     {
-        var res = await _mediator.Send(new GetTestByIdQuery(request), cancellationToken);
+        try
+        {
+            var res = await _mediator.Send(new GetTestByIdQuery(request), cancellationToken);
 
-        if (res.IsSuccessfully)
-            return Ok(res);
+            if (res.IsSuccessfully)
+                return Ok(res);
 
-        return NotFound(res);
+            return NotFound(res);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
     }
-
+    
+    /// <summary>
+    /// Создать тест от пользователя
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> CreateUserTest(CreateUserTestRequest request, CancellationToken cancellationToken)
     {
-        var res = await _mediator.Send(new CreateUserTestQuery(request), cancellationToken);
-        if (res.IsSuccessfully)
-            return Ok(res);
+        try
+        {
+            var res = await _mediator.Send(new CreateUserTestQuery(request), cancellationToken);
+            if (res.IsSuccessfully)
+                return Ok(res);
 
-        return BadRequest(res);
+            return BadRequest(res);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
     }
     
 }

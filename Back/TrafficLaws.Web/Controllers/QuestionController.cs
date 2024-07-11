@@ -15,6 +15,12 @@ public class QuestionController : ControllerBase
         _mediator = mediator;
     }
 
+    /// <summary>
+    /// Добавить вопрос
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> AddQuestion(AddQuestionRequest request, CancellationToken cancellationToken)
     {
@@ -33,6 +39,12 @@ public class QuestionController : ControllerBase
         }
     }
 
+    /// <summary>
+    /// Добавить вопрос и ответы к нему
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> CreateQuestionAndAnswer([FromBody] CreateQuestionAndAnswerRequest request,
         CancellationToken cancellationToken)

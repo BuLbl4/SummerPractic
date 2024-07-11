@@ -15,6 +15,13 @@ public class LoginController : ControllerBase
         _mediator = mediator;
     }
 
+    
+    /// <summary>
+    /// Логин
+    /// </summary>
+    /// <param name="loginDtoRequest"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> Login(LoginRequest loginDtoRequest, CancellationToken cancellationToken)
     {

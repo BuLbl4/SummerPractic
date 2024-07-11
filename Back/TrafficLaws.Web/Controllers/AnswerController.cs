@@ -17,6 +17,12 @@ public class AnswerController : ControllerBase
         _mediator = mediator;
         _repository = repository;
     }
+    /// <summary>
+    /// Добавить ответ на вопрос
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> AddAnswers(AddAnswerRequest request, CancellationToken cancellationToken)
     {
@@ -28,21 +34,6 @@ public class AnswerController : ControllerBase
                 return Ok(res);
 
             return BadRequest(res);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return StatusCode(500, e.Message);
-        }
-    }
-    
-    [HttpPost("[action]")]
-    public async Task<IActionResult> Seed(CancellationToken cancellationToken)
-    {
-        try
-        {
-            await _repository.Seed(cancellationToken);
-            return Ok();
         }
         catch (Exception e)
         {

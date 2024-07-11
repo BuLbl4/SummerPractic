@@ -2,7 +2,9 @@ using System.Text.Json.Serialization;
 using Domain.Common;
 
 namespace Domain.Entities;
-
+/// <summary>
+/// Доп информация о пользователе
+/// </summary>
 public class UserInfo : BaseEntity
 {
     
@@ -22,7 +24,9 @@ public class UserInfo : BaseEntity
     /// ИД пользователя
     /// </summary>
     public Guid UserId { get; set; }
-    
+    /// <summary>
+    /// Результаты пользователя
+    /// </summary>
     public IList<UserResult> Results { get; set; }
     
     

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrafficLaws.Infrastructure
-build_property.ProjectDir = C:\Users\Булат\RiderProjects\TrafficLaws\TrafficLaws.Infrastructure\
+build_property.ProjectDir = C:\SummerPractic\Back\TrafficLaws.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

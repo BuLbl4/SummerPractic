@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HwU7bM92hbeJvUz6rEtc0WGk6isk30T/HrDoyvJCaNqPq/BoYmPCTcr68Ug4Tw1/zGf8iZDmTBb6R5tR9Krn8w==",
+  "dgSpecHash": "f1GxaWKl6xWJ10LBDnQQll+lt9l0tbeCCp1leSnrQlExmepW1ihNVInG9xYBgYGVzGiEreHcD4lGtiDUBaw5/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Web\\TrafficLaws.Web.csproj",
+  "projectFilePath": "C:\\SummerPractic\\Back\\TrafficLaws.Web\\TrafficLaws.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Булат\\.nuget\\packages\\bouncycastle.cryptography\\2.3.0\\bouncycastle.cryptography.2.3.0.nupkg.sha512",
     "C:\\Users\\Булат\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",

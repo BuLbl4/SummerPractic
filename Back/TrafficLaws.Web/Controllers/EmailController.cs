@@ -17,15 +17,25 @@ public class EmailController : ControllerBase
         _emailService = emailService;
         _mediator = mediator;
     }
-
+    /// <summary>
+    /// Отправить сообщение
+    /// </summary>
+    /// <param name="email">Email</param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
-    public async Task<IActionResult> SendEmail(string email, CancellationToken cancellationToken)
+    public async Task<IActionResult> SendEmail(string email, string message, CancellationToken cancellationToken)
     {
-        await _emailService.SendEmailAsync(email, "", "Hello");
+        await _emailService.SendEmailAsync(email, "", message);
 
         return Ok();
     }
-
+    /// <summary>
+    /// Подтверждение почты
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> ConfirmEmailFromCode(ConfirmEmailRequest request,
         CancellationToken cancellationToken)

@@ -819,11 +819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Domain\\TrafficLaws.Domain.csproj",
+      "projectUniqueName": "C:\\SummerPractic\\Back\\TrafficLaws.Domain\\TrafficLaws.Domain.csproj",
       "projectName": "TrafficLaws.Domain",
-      "projectPath": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Domain\\TrafficLaws.Domain.csproj",
+      "projectPath": "C:\\SummerPractic\\Back\\TrafficLaws.Domain\\TrafficLaws.Domain.csproj",
       "packagesPath": "C:\\Users\\Булат\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Domain\\obj\\",
+      "outputPath": "C:\\SummerPractic\\Back\\TrafficLaws.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

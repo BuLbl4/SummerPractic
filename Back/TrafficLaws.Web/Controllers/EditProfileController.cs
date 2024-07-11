@@ -15,6 +15,12 @@ public class EditProfileController : ControllerBase
         _mediator = mediator;
     }
 
+    /// <summary>
+    /// Получить пользователя по id
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpGet("[action]")]
     public async Task<IActionResult> GetUserById([FromQuery] GetUserByIdRequest request, CancellationToken cancellationToken)
     {
@@ -33,7 +39,12 @@ public class EditProfileController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-
+    /// <summary>
+    /// Поменять пароль
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="cancellationToken"></param>
+    /// <returns></returns>
     [HttpPost("[action]")]
     public async Task<IActionResult> EditPassword(EditPasswordRequest request, CancellationToken cancellationToken)
     {

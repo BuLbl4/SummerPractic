@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TyVjNeTL/Ndy84JHvAu5BMfKrGpEYIUu7YX8+7egppYEUjgB7ljzpxIS0VjQyTtE6NJevdjCstnaof+R3yBq4A==",
+  "dgSpecHash": "UKYF66kH+RtE6FOfy1IdZH7TXcp7vTgOYUrM3j4LlpXgDOacPAquKOKuRJvfURkuG1EjzeNoesTiFIog1PE/dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Application\\TrafficLaws.Application.csproj",
+  "projectFilePath": "C:\\SummerPractic\\Back\\TrafficLaws.Application\\TrafficLaws.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Булат\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Булат\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

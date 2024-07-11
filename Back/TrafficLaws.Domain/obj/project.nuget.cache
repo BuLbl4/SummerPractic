@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WRM3T3hLU1Lt5JqQLfCSYBOuEchFUi3fSH9o3wFUCGZmbD48xd3bNA6faJmIyDeNbrz3iJbGsjbTgEJIkN7WKg==",
+  "dgSpecHash": "9TP31z/hCVS1jO6nAWmpUcLE3jP49hg2HztUdNLQyYjKwyeojsBVwU4OCPAVuZrYIHYEYXOSOVIqQsqDwRXxEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Domain\\TrafficLaws.Domain.csproj",
+  "projectFilePath": "C:\\SummerPractic\\Back\\TrafficLaws.Domain\\TrafficLaws.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Булат\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\Булат\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",

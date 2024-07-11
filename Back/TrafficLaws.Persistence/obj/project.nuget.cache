@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6vbEF7bRYtxp7DF1Or7XkPQL0VKDh3g7tWwxXddI3v6gqpeHRJiFih3ZBjFIebYP0oJC7IeYL57a6Y/s4kxAQ==",
+  "dgSpecHash": "mjcrgLdL54tuGqzG6KP+y2QrX3W8WJNOD/JPIVqCbyeAz+XrTSvdIRMpMHxHudeO6t9K0hiWT5Co88oZn6Ns1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Булат\\RiderProjects\\TrafficLaws\\TrafficLaws.Persistence\\TrafficLaws.Persistence.csproj",
+  "projectFilePath": "C:\\SummerPractic\\Back\\TrafficLaws.Persistence\\TrafficLaws.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Булат\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Булат\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
